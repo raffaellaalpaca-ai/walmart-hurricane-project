@@ -3,7 +3,8 @@
 ### Goals
 Overall result: A final, consolidated notebook that runs from start to finish without any compilation errors that Walmart can use to stock up the store before the hurricane comes to maximize profits.
 
-How we will get there:
+**How we will get there:**
+
 Set up repository
 
 Profile the data
@@ -36,9 +37,15 @@ Presentation
 
 Add a README.md file
 
+**What we will learn:**
+
 From this project, Emma will learn more about data cleaning and decision logging. Raffaella will learn more about APIs and joins. Kylie will hone her analysis and write-up skills. Miriam will learn more about how to make effective charts that inform people on the data. These are all skills that we wanted to learn more about and get better at. Overall, all of us will learn how to be good teammates and collaborators.
 
+**Our limitations:**
+
 What limits our time is our outside academic responsibilities and work. Within the next couple of weeks, all of us have upcoming midterms. However, we will ensure that we dedicate time outside of class individually and as a group to work on the project. Every week, we will set personal tasks of what we are completing to ensure that we meet the deadlines and are not procrastinating the work in the end.
+
+**What we will avoid:**
 
 What we want to avoid is procrastinating the work at the end and not communicating with each other. If we follow the rules that we outlined in the "How You Work Together" section below, then we this will ideally not be an issue.
 
