@@ -2,13 +2,13 @@
 
 #### Group Members: Emma Kee (hvh6ng), Kylie Sharp (dhq4mr), Raffaella Alpaca (bet3at), Miriam Ahmadd (zzx6jb)
 
-### Project background
+### Project Background
 In 2004, Walmart discovered that Strawberry Pop-Tart sales increased sevenfold before hurricanes, demonstrating how data analysis can uncover valuable business insights from fragmented data.
 
-### Project description
+### Project Description
 We have been hired as Walmart's data science consultants. A new hurricane is approaching Florida, and leadership needs answers fast. We have been given raw transaction data, store records, product catalogs, distribution center info, and an inventory database, but the data is messy (fragmented SKUs, incomplete data, and more) and needs to be cleaned before analysis. Moreover, we will use real weather data pulled from a free API to enrich our analysis. The goal is to make data-driven inventory and distribution recommendations ahead of the hurricane.
 
-### Project objectives
+### Project Objectives
 Our analysis aims to answer the following questions:
 1) Sales trends: Which product categories experienced the greatest sales surge in the seven days before hurricane landfall compared to the previous baseline period?
 2) SKU standardization: After consolidating all Pop-Tart SKU variants into a single product, what is the true daily sales volume? How does the fragmented, uncleaned view compare to the consolidated, cleaned view, and how might these differences affect business decisions?
@@ -32,7 +32,7 @@ ETL (Extract, Transform, and Load) pipelines
 | `distribution_centers.csv` | CSV | Distribution center capacity and logistics | 5 rows |
 | `inventory_and_sales.db` | SQLite | Database with `daily_sales_summary` and `inventory_levels` tables | ~7,900 rows total |
 
-### Tools and technologies
+### Tools and Technologies
 - Python: Primary programming language
 - Pandas: Data cleaning, manipulation, and transformation
 - NumPy: Numerical operations
@@ -65,12 +65,14 @@ Walmart_Midterm_DS2002/
 ├── README.md
 └── Walmart_Midterm_Notes...
 
+### Key Findings
+
 ### Why is it useful? What is the impact?
 Building a trustworthy data pipeline allows Walmart to combine fragmented datasets and uncover trends that would otherwise remain hidden. By making the data consistent and analysis-ready, Walmart can make more informed decisions about inventory management and supply chain operations.
 
 The expected impact includes improved customer satisfaction through better product availability, increased supply chain efficiency through strategic stocking and fewer last-minute emergency shipments, and stronger financial performance through increased sales and protected profit margins.
 
-### Data limitations
+### Data Limitations
 - Historical sales data may not fully represent customer behavior during an actual hurricane.
 - Missing values and inconsistencies in the original datasets may affect certain analyses.
 - Recommendations are based on the available data and should be interpreted within these limitations.
