@@ -43,6 +43,7 @@ ETL (Extract, Transform, and Load) pipelines
 - Time: Managing API request timing and delays
 - GitHub: Version control and collaboration
 
+```
 Walmart_Midterm_DS2002/
 │
 ├── data/
@@ -54,16 +55,21 @@ Walmart_Midterm_DS2002/
 │
 ├── notebooks/
 │   └── 06-midterm-.../
-│       ├── 2026-10-19 — Midterm...
-│       ├── 2026-10-21 — Weather...
-│       └── 2026-10-23 — Midterm...
+│       ├── 2026-10-19 — Midterm Kickoff and Team Formation - Lecture.ipynb
+│       ├── 2026-10-21 — Weather API Join - Studio.ipynb
+│       ├── 2026-10-23 — Midterm Checkpoint - Lab.ipynb
+│       ├── 2026_10_23_—_Midterm_Checkpoint_-_Lab.ipynb
+│       └── Walmart_Midterm_Notebook_Draft(DS_2002).ipynb
 │
 ├── scratch/
 │
 ├── .gitignore
-├── CHARTER.md
-├── README.md
-└── Walmart_Midterm_Notes...
+├── CHARTER.md                                          # Project Goals and Expectations
+├── DS2002_Midterm_Project_Brief.md                     # Midterm Project Brief
+├── README.md                                           # Project Overview
+├── Walmart Case.pdf                                    # Walmart Case Description
+└── Walmart_Midterm_Notebook_(DS_2002).ipynb            # Final Consolidated Notebook
+```
 
 ### Key Findings
 
