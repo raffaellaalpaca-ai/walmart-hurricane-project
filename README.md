@@ -83,3 +83,6 @@ The expected impact includes improved customer satisfaction through better produ
 - Missing values and inconsistencies in the original datasets may affect certain analyses.
 - Recommendations are based on the available data and should be interpreted within these limitations.
 - Weather conditions and hurricane forecasts can change.
+
+### Reflection Questions
+- 
