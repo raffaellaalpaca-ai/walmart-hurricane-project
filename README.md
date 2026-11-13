@@ -85,6 +85,17 @@ Walmart_Midterm_DS2002/
 **Disclaimer: The necessary code and dataset import steps are already included in the notebook. No additional code needs to be written.**
 
 ### Key Findings
+1. Categories with the Highest Percent Increase:
+Our analysis shows the top five categories by percent increase in the surge time period. The surge period refers to the seven days before landfall, and it uses the seven days before that as the baseline period of comparison. Landfall was found to be 2024-09-06 using wind speeds as the metric of determination. We used wind speed as the proxy for landfall because it generally coincides with the storm's approach. The landfall day is also not included in the time periods themselves in order to not skew the results. Every category showed increase, but of those the five with the highest percent were 'breakfast foods,' 'emergency supplies,' 'electronics,' 'games & entertainment,' and 'alcoholic beverages.' Walmart should keep these categories stocked in anticipation of a storm knowing that they see the greatest increase.
+
+2. Pop-Tart Data Fragmentation
+This section addresses the issue of data fragmentation in the pop tart product. It appears under four different SKU codes, causing the data to inaccurately reflect its sales. The code builds a SKU map to combine "pop tart", "pop-tart", "pop_tart", and"poptart" into one item under the moniker "poptarts." Each of the four variants were about the same in terms of sales, and the total was 5,025 units. The four variants occupy the bottom four revenue ranks but ranks 16 to 19 in units. However, as one item ("poptarts") ranks highest in both revenue and units sold. This analysis demonstrates why SKU standardization matters before ranking. Each variant looks like a relatively low performer on their own, but consolidated they represent about $17,500 in revenue--meaning that Walmart should keep them in stock in anticipation of a storm.
+
+3. Sales and Weather Correlation
+Our analysis shows that sales across all ten categories peak in the two-day window before landfall. Despite there not being a strong correlation shown in the scatterplots, this surge window still exists, indicating that shoppers respond more to the pattern of the storm rather than the individual conditions on a given day.
+
+4. Geographic Correlation to Sales
+This section analyzes the relationship between proximity to landfall and sales during the pre-storm periods. For each store, the code compares the average daily revenue in the surge window (7 days before landfall) and the baseline period (14 days before landfall). It uses Perry, Florida as the landfall location. The bar chart is ordered from closest to furthest. There does not appear to be a direct correlation between the distance from landfall and the surge, but all the stores show increase in about a similar range (95%-129%). The only outlier found was 'fl-239.'
 
 ### Why is it useful? What is the impact?
 Building a trustworthy data pipeline allows Walmart to combine fragmented datasets and uncover trends that would otherwise remain hidden. By making the data consistent and analysis-ready, Walmart can make more informed decisions about inventory management and supply chain operations.
