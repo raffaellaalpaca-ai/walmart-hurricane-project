@@ -43,6 +43,7 @@ ETL (Extract, Transform, and Load) pipelines
 - Time: Managing API request timing and delays
 - GitHub: Version control and collaboration
 
+### Repository Structure
 ```
 Walmart_Midterm_DS2002/
 │
@@ -54,12 +55,12 @@ Walmart_Midterm_DS2002/
 │   └── walmart_transactions.csv
 │
 ├── notebooks/
-│   └── 06-midterm-.../
+│   ├── class content/
 │       ├── 2026-10-19 — Midterm Kickoff and Team Formation - Lecture.ipynb
 │       ├── 2026-10-21 — Weather API Join - Studio.ipynb
-│       ├── 2026-10-23 — Midterm Checkpoint - Lab.ipynb
-│       ├── 2026_10_23_—_Midterm_Checkpoint_-_Lab.ipynb
-│       └── Walmart_Midterm_Notebook_Draft(DS_2002).ipynb
+│       └── 2026-10-23 — Midterm Checkpoint - Lab.ipynb
+│    ├── Walmart Midterm Notebook Draft.ipynb           # Draft Notebook
+|    └── Walmart Midterm Notebook.ipynb                 # Final Consolidated Notebook
 │
 ├── scratch/
 │
@@ -67,11 +68,24 @@ Walmart_Midterm_DS2002/
 ├── CHARTER.md                                          # Project Goals and Expectations
 ├── DS2002_Midterm_Project_Brief.md                     # Midterm Project Brief
 ├── README.md                                           # Project Overview
-├── Walmart Case.pdf                                    # Walmart Case Description
-└── Walmart_Midterm_Notebook_(DS_2002).ipynb            # Final Consolidated Notebook
+└── Walmart Case.pdf                                    # Walmart Case Description
 ```
 
+### How to Run the Project
+1) Clone the GitHub repository: Run the following command to download the project repository
+
+  ```bash
+   git clone https://github.com/ekee7/walmart-hurricane-project.git
+   ```
+
+3) Open the project notebook: Navigate to the `notebooks` directory and open `Walmart Midterm Notebook.ipynb`.
+4) Import the datasets: The notebook automatically imports the required datasets directly from GitHub.
+5) Run the notebook: In Google Colab, select Runtime → Run all to execute the entire notebook sequentially.
+
+**Disclaimer: The necessary code and dataset import steps are already included in the notebook. No additional code needs to be written.**
+
 ### Key Findings
+- 
 
 ### Why is it useful? What is the impact?
 Building a trustworthy data pipeline allows Walmart to combine fragmented datasets and uncover trends that would otherwise remain hidden. By making the data consistent and analysis-ready, Walmart can make more informed decisions about inventory management and supply chain operations.
