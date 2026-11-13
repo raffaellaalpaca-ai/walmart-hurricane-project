@@ -59,8 +59,8 @@ Walmart_Midterm_DS2002/
 │       ├── 2026-10-19 — Midterm Kickoff and Team Formation - Lecture.ipynb
 │       ├── 2026-10-21 — Weather API Join - Studio.ipynb
 │       └── 2026-10-23 — Midterm Checkpoint - Lab.ipynb
-│    ├── Walmart Midterm Notebook Draft.ipynb           # Draft Notebook
-|    └── Walmart Midterm Notebook.ipynb                 # Final Consolidated Notebook
+│   ├── Walmart Midterm Notebook Draft.ipynb           # Draft Notebook
+|   └── Walmart Midterm Notebook.ipynb                 # Final Consolidated Notebook
 │
 ├── scratch/
 │
